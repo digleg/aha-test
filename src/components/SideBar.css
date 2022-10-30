@@ -1,0 +1,66 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  height: 100vh;
+  background: #1b1b1b;
+}
+
+.sidebar__logo {
+  margin-top: 37px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: -0.05em;
+  background: linear-gradient(270deg, #ffd25f 0.13%, #ff5c01 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.sidebar__home {
+  margin-top: 43px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar__home > div > a {
+  color: white;
+  text-decoration: none; /* no underline */
+}
+
+.sidebar__icon {
+  margin-top: 22px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar__icon > div > a {
+  color: white;
+  text-decoration: none; /* no underline */
+  display: flex;
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+.search {
+  width: 100%;
+  max-width: 725px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.search__label {
+  margin-top: 54px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+
+  /* Greyscale/white */
+
+  color: #ffffff;
+}
+
+.search__formControl {
+  width: 100%;
+  margin-top: 20px;
+  max-width: 725px;
+}
+
+.search__cssTextField {
+  width: 100%;
+  margin-top: 20px;
+}

@@ -1,0 +1,23 @@
+.home {
+  width: 100%;
+  display: flex;
+}
+
+.home__search {
+  width: 100%;
+  background: #181818;
+  display: flex;
+  justify-content: center;
+}
+
+.home__profile {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .home__profile {
+    display: inline;
+    width: 375px;
+    background: #1b1b1b;
+  }
+}
