@@ -30,7 +30,7 @@ function App() {
   ]);
   return (
     <React.StrictMode>
-      <div style={{ display: "flex", height: "100vh" }}>
+      <div style={{ display: "flex" }}>
         <SideBar />
         <RouterProvider router={router} />
       </div>

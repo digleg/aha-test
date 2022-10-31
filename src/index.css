@@ -4,21 +4,14 @@
 
 body {
   margin: 0;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Ubuntu";
 }
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html,
 body,
 div,
@@ -100,11 +93,11 @@ time,
 mark,
 audio,
 video {
+  font-family: "Ubuntu";
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -120,17 +113,21 @@ menu,
 nav,
 section {
   display: block;
+  font-family: "Ubuntu";
 }
 body {
   line-height: 1;
+  font-family: "Ubuntu";
 }
 ol,
 ul {
   list-style: none;
+  font-family: "Ubuntu";
 }
 blockquote,
 q {
   quotes: none;
+  font-family: "Ubuntu";
 }
 blockquote:before,
 blockquote:after,
@@ -138,8 +135,10 @@ q:before,
 q:after {
   content: "";
   content: none;
+  font-family: "Ubuntu";
 }
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  font-family: "Ubuntu";
 }
