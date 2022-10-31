@@ -1,6 +1,7 @@
 .home {
   width: 100%;
   display: flex;
+  background: #1b1b1b;
 }
 
 .home__search {
@@ -12,12 +13,16 @@
 
 .home__profile {
   display: none;
+  background: #1b1b1b;
 }
 
 @media screen and (min-width: 1440px) {
   .home__profile {
     display: inline;
+    min-width: 375px;
     width: 375px;
     background: #1b1b1b;
+    height: 900px;
+    overflow-y: scroll;
   }
 }
